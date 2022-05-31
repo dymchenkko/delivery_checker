@@ -1,0 +1,1 @@
+/mnt/d/total/methods/guest/target/release/build/risc0-zkvm-sys-6a4eefe04511bf25/out/cxxbridge/sources/risc0/zkvm/lib.rs.cc

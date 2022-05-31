@@ -1,0 +1,1 @@
+/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/sources/risc0/core/lib.rs.cc

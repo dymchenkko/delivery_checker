@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/mnt/d/total/methods/guest/target/riscv32im-unknown-none-elf/release/build/typenum-59bcc9afc344b993/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/mnt/d/total/methods/guest/target/riscv32im-unknown-none-elf/release/build/typenum-59bcc9afc344b993/out/op.rs

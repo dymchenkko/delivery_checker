@@ -1,0 +1,1 @@
+/mnt/d/total/methods/guest/target/release/build/risc0-zkvm-platform-sys-c20261d5da74122c/out/cxxbridge/include/risc0/zkvm/platform/src/lib.rs.h

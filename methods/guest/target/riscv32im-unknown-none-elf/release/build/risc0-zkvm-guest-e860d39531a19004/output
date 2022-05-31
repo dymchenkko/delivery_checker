@@ -1,0 +1,1 @@
+cargo:rustc-link-arg=-T/mnt/d/total/methods/guest/target/riscv32im-unknown-none-elf/release/build/risc0-zkvm-guest-e860d39531a19004/out/risc0.ld

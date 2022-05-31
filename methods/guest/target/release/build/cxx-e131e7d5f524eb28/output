@@ -1,0 +1,40 @@
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-unknown-linux-gnu")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-std=c++11" "-o" "/mnt/d/total/methods/guest/target/release/build/cxx-e131e7d5f524eb28/out/src/cxx.o" "-c" "src/cxx.cc"
+exit status: 0
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+running: "ar" "cq" "/mnt/d/total/methods/guest/target/release/build/cxx-e131e7d5f524eb28/out/libcxxbridge1.a" "/mnt/d/total/methods/guest/target/release/build/cxx-e131e7d5f524eb28/out/src/cxx.o"
+exit status: 0
+running: "ar" "s" "/mnt/d/total/methods/guest/target/release/build/cxx-e131e7d5f524eb28/out/libcxxbridge1.a"
+exit status: 0
+cargo:rustc-link-lib=static=cxxbridge1
+cargo:rustc-link-search=native=/mnt/d/total/methods/guest/target/release/build/cxx-e131e7d5f524eb28/out
+cargo:rerun-if-changed=src/cxx.cc
+cargo:rerun-if-changed=include/cxx.h
+cargo:rustc-cfg=built_with_cargo
+cargo:HEADER=/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/cxx-1.0.68/include/cxx.h

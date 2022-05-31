@@ -1,0 +1,78 @@
+cargo:CXXBRIDGE_PREFIX=risc0/zkp
+cargo:CXXBRIDGE_LINKS=risc0-zkp-sys
+cargo:CXXBRIDGE_DIR0=/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/include
+cargo:CXXBRIDGE_DIR1=/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/crate
+cargo:CXXBRIDGE_DIR2=/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/include
+cargo:CXXBRIDGE_DIR3=/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/crate
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-unknown-linux-gnu")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/crate" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/crate" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-std=c++17" "-D__TBB_NO_IMPLICIT_LINKAGE" "-o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/core/ntt.o" "-c" "core/ntt.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/crate" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/crate" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-std=c++17" "-D__TBB_NO_IMPLICIT_LINKAGE" "-o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/core/sha_rng.o" "-c" "core/sha_rng.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/crate" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/crate" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-std=c++17" "-D__TBB_NO_IMPLICIT_LINKAGE" "-o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/prove/poly_group.o" "-c" "prove/poly_group.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/crate" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/crate" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-std=c++17" "-D__TBB_NO_IMPLICIT_LINKAGE" "-o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/prove/fri.o" "-c" "prove/fri.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/crate" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/crate" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-std=c++17" "-D__TBB_NO_IMPLICIT_LINKAGE" "-o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/prove/merkle.o" "-c" "prove/merkle.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/crate" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/crate" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-std=c++17" "-D__TBB_NO_IMPLICIT_LINKAGE" "-o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/core/poly.o" "-c" "core/poly.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/crate" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/crate" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-std=c++17" "-D__TBB_NO_IMPLICIT_LINKAGE" "-o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/prove/prove.o" "-c" "prove/prove.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/crate" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/crate" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-std=c++17" "-D__TBB_NO_IMPLICIT_LINKAGE" "-o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/verify/fri.o" "-c" "verify/fri.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/crate" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/crate" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-std=c++17" "-D__TBB_NO_IMPLICIT_LINKAGE" "-o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/accel/backend/cpu/impl.o" "-c" "accel/backend/cpu/impl.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/crate" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/crate" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-std=c++17" "-D__TBB_NO_IMPLICIT_LINKAGE" "-o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/sources/risc0/zkp/lib.rs.o" "-c" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/sources/risc0/zkp/lib.rs.cc"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/crate" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/crate" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-std=c++17" "-D__TBB_NO_IMPLICIT_LINKAGE" "-o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/verify/merkle.o" "-c" "verify/merkle.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/crate" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/crate" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-std=c++17" "-D__TBB_NO_IMPLICIT_LINKAGE" "-o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/verify/taps.o" "-c" "verify/taps.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/crate" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-core-sys-c13511edbbec3daf/out/cxxbridge/crate" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-std=c++17" "-D__TBB_NO_IMPLICIT_LINKAGE" "-o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/verify/verify.o" "-c" "verify/verify.cpp"
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+running: "ar" "cq" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/librisc0-zkp-sys.a" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/cxxbridge/sources/risc0/zkp/lib.rs.o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/accel/backend/cpu/impl.o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/core/ntt.o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/core/poly.o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/core/sha_rng.o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/prove/fri.o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/prove/merkle.o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/prove/poly_group.o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/prove/prove.o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/verify/fri.o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/verify/merkle.o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/verify/taps.o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/verify/verify.o"
+exit status: 0
+running: "ar" "s" "/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out/librisc0-zkp-sys.a"
+exit status: 0
+cargo:rustc-link-lib=static=risc0-zkp-sys
+cargo:rustc-link-search=native=/mnt/d/total/methods/guest/target/release/build/risc0-zkp-sys-c6b3beaa23b7bb49/out
+cargo:rustc-link-lib=static=tbb
+cargo:rustc-link-lib=static=risc0-core-sys

@@ -1,0 +1,31 @@
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-unknown-linux-gnu")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-Wall" "-Wextra" "-o" "/mnt/d/total/methods/guest/target/release/build/link-cplusplus-463d2c28f693fe68/out/dummy.o" "-c" "/mnt/d/total/methods/guest/target/release/build/link-cplusplus-463d2c28f693fe68/out/dummy.cc"
+exit status: 0
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+running: "ar" "cq" "/mnt/d/total/methods/guest/target/release/build/link-cplusplus-463d2c28f693fe68/out/liblink-cplusplus.a" "/mnt/d/total/methods/guest/target/release/build/link-cplusplus-463d2c28f693fe68/out/dummy.o"
+exit status: 0
+running: "ar" "s" "/mnt/d/total/methods/guest/target/release/build/link-cplusplus-463d2c28f693fe68/out/liblink-cplusplus.a"
+exit status: 0
+cargo:rustc-link-lib=static=link-cplusplus
+cargo:rustc-link-search=native=/mnt/d/total/methods/guest/target/release/build/link-cplusplus-463d2c28f693fe68/out
+CXXSTDLIB_x86_64-unknown-linux-gnu = None
+CXXSTDLIB_x86_64_unknown_linux_gnu = None
+HOST_CXXSTDLIB = None
+CXXSTDLIB = None
+cargo:rustc-link-lib=stdc++

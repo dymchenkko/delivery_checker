@@ -1,0 +1,146 @@
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-unknown-linux-gnu")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/address_waiter.o" "-c" "tbb/src/tbb/address_waiter.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/allocator.o" "-c" "tbb/src/tbb/allocator.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/arena.o" "-c" "tbb/src/tbb/arena.cpp"
+exit status: 0
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/arena_slot.o" "-c" "tbb/src/tbb/arena_slot.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/concurrent_bounded_queue.o" "-c" "tbb/src/tbb/concurrent_bounded_queue.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/dynamic_link.o" "-c" "tbb/src/tbb/dynamic_link.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/exception.o" "-c" "tbb/src/tbb/exception.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/global_control.o" "-c" "tbb/src/tbb/global_control.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/governor.o" "-c" "tbb/src/tbb/governor.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/itt_notify.o" "-c" "tbb/src/tbb/itt_notify.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/main.o" "-c" "tbb/src/tbb/main.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/market.o" "-c" "tbb/src/tbb/market.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/misc.o" "-c" "tbb/src/tbb/misc.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/misc_ex.o" "-c" "tbb/src/tbb/misc_ex.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/observer_proxy.o" "-c" "tbb/src/tbb/observer_proxy.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/parallel_pipeline.o" "-c" "tbb/src/tbb/parallel_pipeline.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/private_server.o" "-c" "tbb/src/tbb/private_server.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/profiling.o" "-c" "tbb/src/tbb/profiling.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/queuing_rw_mutex.o" "-c" "tbb/src/tbb/queuing_rw_mutex.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/rml_tbb.o" "-c" "tbb/src/tbb/rml_tbb.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/rtm_mutex.o" "-c" "tbb/src/tbb/rtm_mutex.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/rtm_rw_mutex.o" "-c" "tbb/src/tbb/rtm_rw_mutex.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/semaphore.o" "-c" "tbb/src/tbb/semaphore.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/small_object_pool.o" "-c" "tbb/src/tbb/small_object_pool.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/task.o" "-c" "tbb/src/tbb/task.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/task_dispatcher.o" "-c" "tbb/src/tbb/task_dispatcher.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/task_group_context.o" "-c" "tbb/src/tbb/task_group_context.cpp"
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include" "-w" "-std=c++17" "-mwaitpkg" "-D__TBB_BUILD" "-D__TBB_NO_IMPLICIT_LINKAGE" "-D__TBB_USE_ITT_NOTIFY" "-o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/version.o" "-c" "tbb/src/tbb/version.cpp"
+exit status: 0
+exit status: 0
+exit status: 0
+exit status: 0
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+running: "ar" "cq" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/libtbb.a" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/address_waiter.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/allocator.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/arena.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/arena_slot.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/concurrent_bounded_queue.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/dynamic_link.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/exception.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/global_control.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/governor.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/itt_notify.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/main.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/market.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/misc.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/misc_ex.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/observer_proxy.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/parallel_pipeline.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/private_server.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/profiling.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/queuing_rw_mutex.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/rml_tbb.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/rtm_mutex.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/rtm_rw_mutex.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/semaphore.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/small_object_pool.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/task.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/task_dispatcher.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/task_group_context.o" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/tbb/src/tbb/version.o"
+exit status: 0
+running: "ar" "s" "/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out/libtbb.a"
+exit status: 0
+cargo:rustc-link-lib=static=tbb
+cargo:rustc-link-search=native=/mnt/d/total/methods/guest/target/release/build/tbb-sys-af4e01f1ccd73fb4/out
+CXXSTDLIB_x86_64-unknown-linux-gnu = None
+CXXSTDLIB_x86_64_unknown_linux_gnu = None
+HOST_CXXSTDLIB = None
+CXXSTDLIB = None
+cargo:rustc-link-lib=stdc++
+cargo:include=/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/tbb-sys-1.1.0+2021.5.0/tbb/include

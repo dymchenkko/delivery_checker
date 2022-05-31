@@ -1,0 +1,11 @@
+/mnt/d/total/methods/guest/target/release/deps/cargo_metadata-d38ed7a301bfefcc.rmeta: /home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/lib.rs /home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/dependency.rs /home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/diagnostic.rs /home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/errors.rs /home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/messages.rs
+
+/mnt/d/total/methods/guest/target/release/deps/libcargo_metadata-d38ed7a301bfefcc.rlib: /home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/lib.rs /home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/dependency.rs /home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/diagnostic.rs /home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/errors.rs /home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/messages.rs
+
+/mnt/d/total/methods/guest/target/release/deps/cargo_metadata-d38ed7a301bfefcc.d: /home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/lib.rs /home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/dependency.rs /home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/diagnostic.rs /home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/errors.rs /home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/messages.rs
+
+/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/lib.rs:
+/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/dependency.rs:
+/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/diagnostic.rs:
+/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/errors.rs:
+/home/dymchenko/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo_metadata-0.14.2/src/messages.rs:

@@ -1,0 +1,50 @@
+cargo:CXXBRIDGE_PREFIX=risc0/zkvm/platform
+cargo:CXXBRIDGE_LINKS=risc0-zkvm-platform-sys
+cargo:CXXBRIDGE_DIR0=/mnt/d/total/methods/guest/target/release/build/risc0-zkvm-platform-sys-c20261d5da74122c/out/cxxbridge/include
+cargo:CXXBRIDGE_DIR1=/mnt/d/total/methods/guest/target/release/build/risc0-zkvm-platform-sys-c20261d5da74122c/out/cxxbridge/crate
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-unknown-linux-gnu")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+CXX_x86_64-unknown-linux-gnu = None
+CXX_x86_64_unknown_linux_gnu = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-unknown-linux-gnu = None
+CXXFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkvm-platform-sys-c20261d5da74122c/out/cxxbridge/include" "-I" "/mnt/d/total/methods/guest/target/release/build/risc0-zkvm-platform-sys-c20261d5da74122c/out/cxxbridge/crate" "-std=c++17" "-o" "/mnt/d/total/methods/guest/target/release/build/risc0-zkvm-platform-sys-c20261d5da74122c/out/cxxbridge/sources/risc0/zkvm/platform/src/lib.rs.o" "-c" "/mnt/d/total/methods/guest/target/release/build/risc0-zkvm-platform-sys-c20261d5da74122c/out/cxxbridge/sources/risc0/zkvm/platform/src/lib.rs.cc"
+exit status: 0
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+running: "ar" "cq" "/mnt/d/total/methods/guest/target/release/build/risc0-zkvm-platform-sys-c20261d5da74122c/out/librisc0-zkp-platform.a" "/mnt/d/total/methods/guest/target/release/build/risc0-zkvm-platform-sys-c20261d5da74122c/out/cxxbridge/sources/risc0/zkvm/platform/src/lib.rs.o"
+exit status: 0
+running: "ar" "s" "/mnt/d/total/methods/guest/target/release/build/risc0-zkvm-platform-sys-c20261d5da74122c/out/librisc0-zkp-platform.a"
+exit status: 0
+cargo:rustc-link-lib=static=risc0-zkp-platform
+cargo:rustc-link-search=native=/mnt/d/total/methods/guest/target/release/build/risc0-zkvm-platform-sys-c20261d5da74122c/out
